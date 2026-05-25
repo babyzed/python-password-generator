@@ -16,5 +16,6 @@ length = int(input("password length: "))
 password = "".join(random.choice(chars) for _ in range(length))
 
 # View and result
+
 print("Generated password: ")
 print(password)
